@@ -1,7 +1,7 @@
 # About this Repo
 
 
-### It consists mini projects reagrding training in Automation Testing :-
+### It consists mini projects related ton Automation Testing :-
 
 - Appium
 - C#
