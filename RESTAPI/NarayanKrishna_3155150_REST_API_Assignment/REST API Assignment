@@ -1,0 +1,39 @@
+REST API Assignment
+Submission Date - 28/12/2020
+
+Name : Narayan Krishna
+Emp Id : 3155150
+
+Assignment Key Points :-
+
+- No Hardcoding - use any type to fetch data
+- Try to use multiple classes - Done
+- Methods - Get/POST/PUT/Delete - Done
+- testng.xml - Done
+- multiple scenarios - Done
+- logging - Done
+- meaningfull assertion - Done
+- Maps headers/Parameters	- Done
+- Please also try to add negative scenarios like 400, 401,etc - Done
+
+This Assignment includes :-
+
+- 18 Test Cases (Positive and Negative Test included)
+- 5 Test Scenarios
+- Extent Report
+- Logger (log4j and RestAssured Log)
+- Properties file (For Test and Configuration Data)
+
+Steps to run :-
+
+Extract the assignment and go to the extracted directory
+Open Cmd and type following in CMD :-
+>mvn clean
+>mvn install
+
+Important Path :-
+
+ - Log4j : ./log
+ - ExtentReport : ./Resource
+ - TestNg XML : ./testng.xml
+ - Properties file : ./Resources/props/data.properties

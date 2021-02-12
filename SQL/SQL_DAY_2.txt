@@ -1,0 +1,5 @@
+Truncate - Delete table but not schema
+Drop - Delete whole schema and table
+
+Task - Perform operation on Adventure any table 
+Please do hands for sql statements till the slide # 44.

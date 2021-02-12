@@ -1,0 +1,17 @@
+JIRA API
+
+Username - NarayanKrishna
+Password - SimplePassword@123
+
+
+Session ID
+
+JSESSIONID=8C1A57EF9BC4E790A8DC44FC5810A9CD
+
+
+ToDo :-
+
+.. Create payload (map data)
+.. Create batch File
+.. Create 
+.. Create JSON Files

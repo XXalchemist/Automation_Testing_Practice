@@ -1,0 +1,8 @@
+com\Nagarro\RestApi\Tests\BaseTest.class
+com\Nagarro\RestApi\Tests\BoardTest.class
+com\Nagarro\RestApi\Tests\SearchTest.class
+com\Nagarro\RestApi\Utils\ExtentReportClass.class
+com\Nagarro\RestApi\Tests\EmojiTest.class
+com\Nagarro\RestApi\Tests\ListTest.class
+com\Nagarro\RestApi\Tests\CardTest.class
+com\Nagarro\RestApi\Utils\Utils.class

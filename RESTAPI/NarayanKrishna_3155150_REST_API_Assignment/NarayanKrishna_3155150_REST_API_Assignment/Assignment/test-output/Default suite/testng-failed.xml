@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="com.Nagarro.RestApi.Tests.CardTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Nagarro.RestApi.Tests.CardTest -->
+      <class name="com.Nagarro.RestApi.Tests.ListTest">
+        <methods>
+          <include name="ValidArchiveList"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Nagarro.RestApi.Tests.ListTest -->
+      <class name="com.Nagarro.RestApi.Tests.SearchTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Nagarro.RestApi.Tests.SearchTest -->
+      <class name="com.Nagarro.RestApi.Tests.BoardTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Nagarro.RestApi.Tests.BoardTest -->
+      <class name="com.Nagarro.RestApi.Tests.EmojiTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Nagarro.RestApi.Tests.EmojiTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,30 @@
+
+Narayan Krishna 
+3155150
+SQL Server Assignment
+
+Due Date : 17/12/2020 
+
+Questions -
+
+How to make solution in studio and use it ?
+Why Name is highlighted as keyword ?
+Schema Naming Problem ?
+BusinessEntityD or ID
+Question 7 and 8 
+Where is sales person ID?
+
+Excercise -2
+What is spent - total including taxes also?
+
+Is number of records here is number of rows ?
+
+16/12/2020
+Roadmap :-
+
+Solve Excercise - 1 - Done - 1 Done
+Solve Excercise - 2 - Done
+Solve Excercise - 3 - Done - Doubt regarding availability
+Solve Excercise - 4 - Done
+
+Check The Solution For All - 18/12/2020 - Morning

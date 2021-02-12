@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[SetUp Completed]]>
+    </line>
+    <line>
+      <![CDATA[SetUp Completed]]>
+    </line>
+    <line>
+      <![CDATA[SetUp Completed]]>
+    </line>
+    <line>
+      <![CDATA[SetUp Completed]]>
+    </line>
+    <line>
+      <![CDATA[SetUp Completed]]>
+    </line>
+    <line>
+      <![CDATA[SetUp Completed]]>
+    </line>
+    <line>
+      <![CDATA[SetUp Completed]]>
+    </line>
+    <line>
+      <![CDATA[SetUp Completed]]>
+    </line>
+    <line>
+      <![CDATA[SetUp Completed]]>
+    </line>
+    <line>
+      <![CDATA[SetUp Completed]]>
+    </line>
+    <line>
+      <![CDATA[SetUp Completed]]>
+    </line>
+    <line>
+      <![CDATA[SetUp Completed]]>
+    </line>
+    <line>
+      <![CDATA[SetUp Completed]]>
+    </line>
+    <line>
+      <![CDATA[SetUp Completed]]>
+    </line>
+    <line>
+      <![CDATA[SetUp Completed]]>
+    </line>
+    <line>
+      <![CDATA[SetUp Completed]]>
+    </line>
+    <line>
+      <![CDATA[SetUp Completed]]>
+    </line>
+    <line>
+      <![CDATA[SetUp Completed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-12-27T20:52:40Z" name="Suite" finished-at="2020-12-27T20:52:57Z" duration-ms="17387">
+    <groups>
+    </groups>
+    <test started-at="2020-12-27T20:52:40Z" name="Test" finished-at="2020-12-27T20:52:57Z" duration-ms="17387">
+      <class name="com.Nagarro.RestApi.Tests.CardTest">
+        <test-method signature="ValidCreateCard()[pri:0, instance:com.Nagarro.RestApi.Tests.CardTest@73cd37c0]" started-at="2020-12-28T02:22:48Z" name="ValidCreateCard" finished-at="2020-12-28T02:22:49Z" duration-ms="964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidCreateCard -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Nagarro.RestApi.Tests.CardTest@73cd37c0]" started-at="2020-12-28T02:22:48Z" name="setUp" finished-at="2020-12-28T02:22:48Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SetUp Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Nagarro.RestApi.Tests.CardTest@73cd37c0]" started-at="2020-12-28T02:22:49Z" name="tearDown" finished-at="2020-12-28T02:22:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Nagarro.RestApi.Tests.CardTest@73cd37c0]" started-at="2020-12-28T02:22:49Z" name="setUp" finished-at="2020-12-28T02:22:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SetUp Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ValidGetCard()[pri:0, instance:com.Nagarro.RestApi.Tests.CardTest@73cd37c0]" started-at="2020-12-28T02:22:49Z" name="ValidGetCard" finished-at="2020-12-28T02:22:50Z" duration-ms="944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidGetCard -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Nagarro.RestApi.Tests.CardTest@73cd37c0]" started-at="2020-12-28T02:22:50Z" name="tearDown" finished-at="2020-12-28T02:22:50Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Nagarro.RestApi.Tests.CardTest@73cd37c0]" started-at="2020-12-28T02:22:50Z" name="setUp" finished-at="2020-12-28T02:22:50Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SetUp Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="InvalidGetCard()[pri:0, instance:com.Nagarro.RestApi.Tests.CardTest@73cd37c0]" started-at="2020-12-28T02:22:50Z" name="InvalidGetCard" finished-at="2020-12-28T02:22:51Z" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidGetCard -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Nagarro.RestApi.Tests.CardTest@73cd37c0]" started-at="2020-12-28T02:22:51Z" name="tearDown" finished-at="2020-12-28T02:22:51Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Nagarro.RestApi.Tests.CardTest@73cd37c0]" started-at="2020-12-28T02:22:51Z" name="setUp" finished-at="2020-12-28T02:22:51Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SetUp Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ValidUpdateCard()[pri:0, instance:com.Nagarro.RestApi.Tests.CardTest@73cd37c0]" started-at="2020-12-28T02:22:51Z" name="ValidUpdateCard" finished-at="2020-12-28T02:22:52Z" duration-ms="903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidUpdateCard -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Nagarro.RestApi.Tests.CardTest@73cd37c0]" started-at="2020-12-28T02:22:52Z" name="tearDown" finished-at="2020-12-28T02:22:52Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Nagarro.RestApi.Tests.CardTest@73cd37c0]" started-at="2020-12-28T02:22:52Z" name="setUp" finished-at="2020-12-28T02:22:52Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SetUp Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ValidDeleteCard()[pri:0, instance:com.Nagarro.RestApi.Tests.CardTest@73cd37c0]" started-at="2020-12-28T02:22:52Z" name="ValidDeleteCard" finished-at="2020-12-28T02:22:53Z" duration-ms="925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidDeleteCard -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Nagarro.RestApi.Tests.CardTest@73cd37c0]" started-at="2020-12-28T02:22:53Z" name="tearDown" finished-at="2020-12-28T02:22:53Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Nagarro.RestApi.Tests.CardTest -->
+      <class name="com.Nagarro.RestApi.Tests.ListTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Nagarro.RestApi.Tests.ListTest@558bdf1f]" started-at="2020-12-28T02:22:53Z" name="setUp" finished-at="2020-12-28T02:22:53Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SetUp Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ValidCreateList()[pri:0, instance:com.Nagarro.RestApi.Tests.ListTest@558bdf1f]" started-at="2020-12-28T02:22:53Z" name="ValidCreateList" finished-at="2020-12-28T02:22:54Z" duration-ms="961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidCreateList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Nagarro.RestApi.Tests.ListTest@558bdf1f]" started-at="2020-12-28T02:22:54Z" name="tearDown" finished-at="2020-12-28T02:22:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ValidGetList()[pri:0, instance:com.Nagarro.RestApi.Tests.ListTest@558bdf1f]" started-at="2020-12-28T02:22:54Z" name="ValidGetList" finished-at="2020-12-28T02:22:54Z" duration-ms="965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidGetList -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Nagarro.RestApi.Tests.ListTest@558bdf1f]" started-at="2020-12-28T02:22:54Z" name="setUp" finished-at="2020-12-28T02:22:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SetUp Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Nagarro.RestApi.Tests.ListTest@558bdf1f]" started-at="2020-12-28T02:22:54Z" name="setUp" finished-at="2020-12-28T02:22:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SetUp Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Nagarro.RestApi.Tests.ListTest@558bdf1f]" started-at="2020-12-28T02:22:54Z" name="tearDown" finished-at="2020-12-28T02:22:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="InvalidGetList()[pri:0, instance:com.Nagarro.RestApi.Tests.ListTest@558bdf1f]" started-at="2020-12-28T02:22:54Z" name="InvalidGetList" finished-at="2020-12-28T02:22:55Z" duration-ms="936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidGetList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Nagarro.RestApi.Tests.ListTest@558bdf1f]" started-at="2020-12-28T02:22:55Z" name="tearDown" finished-at="2020-12-28T02:22:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Nagarro.RestApi.Tests.ListTest@558bdf1f]" started-at="2020-12-28T02:22:55Z" name="setUp" finished-at="2020-12-28T02:22:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SetUp Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ValidUpdateList()[pri:0, instance:com.Nagarro.RestApi.Tests.ListTest@558bdf1f]" started-at="2020-12-28T02:22:55Z" name="ValidUpdateList" finished-at="2020-12-28T02:22:56Z" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidUpdateList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Nagarro.RestApi.Tests.ListTest@558bdf1f]" started-at="2020-12-28T02:22:56Z" name="tearDown" finished-at="2020-12-28T02:22:56Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Nagarro.RestApi.Tests.ListTest@558bdf1f]" started-at="2020-12-28T02:22:56Z" name="setUp" finished-at="2020-12-28T02:22:56Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SetUp Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ValidArchiveList()[pri:0, instance:com.Nagarro.RestApi.Tests.ListTest@558bdf1f]" started-at="2020-12-28T02:22:56Z" name="ValidArchiveList" finished-at="2020-12-28T02:22:57Z" duration-ms="952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidArchiveList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Nagarro.RestApi.Tests.ListTest@558bdf1f]" started-at="2020-12-28T02:22:57Z" name="tearDown" finished-at="2020-12-28T02:22:57Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Nagarro.RestApi.Tests.ListTest -->
+      <class name="com.Nagarro.RestApi.Tests.EmojiTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Nagarro.RestApi.Tests.EmojiTest@7a362b6b]" started-at="2020-12-28T02:22:43Z" name="setUp" finished-at="2020-12-28T02:22:43Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SetUp Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ValidGetEmojis()[pri:0, instance:com.Nagarro.RestApi.Tests.EmojiTest@7a362b6b]" started-at="2020-12-28T02:22:43Z" name="ValidGetEmojis" finished-at="2020-12-28T02:22:44Z" duration-ms="765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidGetEmojis -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Nagarro.RestApi.Tests.EmojiTest@7a362b6b]" started-at="2020-12-28T02:22:44Z" name="tearDown" finished-at="2020-12-28T02:22:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Nagarro.RestApi.Tests.EmojiTest -->
+      <class name="com.Nagarro.RestApi.Tests.SearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Nagarro.RestApi.Tests.SearchTest@2bb3058]" started-at="2020-12-28T02:22:42Z" name="setUp" finished-at="2020-12-28T02:22:42Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SetUp Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ValidBoardSearch()[pri:0, instance:com.Nagarro.RestApi.Tests.SearchTest@2bb3058]" started-at="2020-12-28T02:22:42Z" name="ValidBoardSearch" finished-at="2020-12-28T02:22:43Z" duration-ms="1059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidBoardSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Nagarro.RestApi.Tests.SearchTest@2bb3058]" started-at="2020-12-28T02:22:43Z" name="tearDown" finished-at="2020-12-28T02:22:43Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Nagarro.RestApi.Tests.SearchTest@2bb3058]" started-at="2020-12-28T02:22:45Z" name="setUp" finished-at="2020-12-28T02:22:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SetUp Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="InvalidBoardSearch()[pri:0, instance:com.Nagarro.RestApi.Tests.SearchTest@2bb3058]" started-at="2020-12-28T02:22:45Z" name="InvalidBoardSearch" finished-at="2020-12-28T02:22:45Z" duration-ms="735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidBoardSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Nagarro.RestApi.Tests.SearchTest@2bb3058]" started-at="2020-12-28T02:22:45Z" name="tearDown" finished-at="2020-12-28T02:22:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Nagarro.RestApi.Tests.SearchTest -->
+      <class name="com.Nagarro.RestApi.Tests.BoardTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Nagarro.RestApi.Tests.BoardTest@21337f7b]" started-at="2020-12-28T02:22:40Z" name="setUp" finished-at="2020-12-28T02:22:40Z" duration-ms="208" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SetUp Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ValidCreateBoard()[pri:0, instance:com.Nagarro.RestApi.Tests.BoardTest@21337f7b]" started-at="2020-12-28T02:22:40Z" name="ValidCreateBoard" finished-at="2020-12-28T02:22:42Z" duration-ms="1729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidCreateBoard -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Nagarro.RestApi.Tests.BoardTest@21337f7b]" started-at="2020-12-28T02:22:42Z" name="tearDown" finished-at="2020-12-28T02:22:42Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Nagarro.RestApi.Tests.BoardTest@21337f7b]" started-at="2020-12-28T02:22:44Z" name="setUp" finished-at="2020-12-28T02:22:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SetUp Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ValidGetBoard()[pri:0, instance:com.Nagarro.RestApi.Tests.BoardTest@21337f7b]" started-at="2020-12-28T02:22:44Z" name="ValidGetBoard" finished-at="2020-12-28T02:22:45Z" duration-ms="823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidGetBoard -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Nagarro.RestApi.Tests.BoardTest@21337f7b]" started-at="2020-12-28T02:22:45Z" name="tearDown" finished-at="2020-12-28T02:22:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Nagarro.RestApi.Tests.BoardTest@21337f7b]" started-at="2020-12-28T02:22:45Z" name="setUp" finished-at="2020-12-28T02:22:45Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SetUp Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="InvalidGetBoard()[pri:0, instance:com.Nagarro.RestApi.Tests.BoardTest@21337f7b]" started-at="2020-12-28T02:22:45Z" name="InvalidGetBoard" finished-at="2020-12-28T02:22:46Z" duration-ms="846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidGetBoard -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Nagarro.RestApi.Tests.BoardTest@21337f7b]" started-at="2020-12-28T02:22:46Z" name="tearDown" finished-at="2020-12-28T02:22:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ValidUpdateBoard()[pri:0, instance:com.Nagarro.RestApi.Tests.BoardTest@21337f7b]" started-at="2020-12-28T02:22:46Z" name="ValidUpdateBoard" finished-at="2020-12-28T02:22:47Z" duration-ms="983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidUpdateBoard -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Nagarro.RestApi.Tests.BoardTest@21337f7b]" started-at="2020-12-28T02:22:46Z" name="setUp" finished-at="2020-12-28T02:22:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SetUp Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Nagarro.RestApi.Tests.BoardTest@21337f7b]" started-at="2020-12-28T02:22:47Z" name="tearDown" finished-at="2020-12-28T02:22:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Nagarro.RestApi.Tests.BoardTest@21337f7b]" started-at="2020-12-28T02:22:47Z" name="setUp" finished-at="2020-12-28T02:22:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SetUp Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ValidDeleteBoard()[pri:0, instance:com.Nagarro.RestApi.Tests.BoardTest@21337f7b]" started-at="2020-12-28T02:22:47Z" name="ValidDeleteBoard" finished-at="2020-12-28T02:22:48Z" duration-ms="954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidDeleteBoard -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Nagarro.RestApi.Tests.BoardTest@21337f7b]" started-at="2020-12-28T02:22:48Z" name="tearDown" finished-at="2020-12-28T02:22:48Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Nagarro.RestApi.Tests.BoardTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

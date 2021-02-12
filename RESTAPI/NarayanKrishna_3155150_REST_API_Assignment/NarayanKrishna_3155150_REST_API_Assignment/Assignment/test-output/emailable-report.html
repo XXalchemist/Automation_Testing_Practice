@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">18</td><td class="numi">18</td><td class="numi">0</td><td class="numi">0</td><td class="numi">17.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.Nagarro.RestApi.Tests.SearchTest</td><td><a href="#m1"><b>InvalidBoardSearch</b>  </a></td><td class="numi">1</td><td>1609102365084</td><td class="numi">735</td></tr>
+<tr class="passedeven"><td rowspan="1">com.Nagarro.RestApi.Tests.BoardTest</td><td><a href="#m2"><b>InvalidGetBoard</b>  </a></td><td class="numi">1</td><td>1609102365820</td><td class="numi">846</td></tr>
+<tr class="passedodd"><td rowspan="1">com.Nagarro.RestApi.Tests.CardTest</td><td><a href="#m3"><b>InvalidGetCard</b>  </a></td><td class="numi">1</td><td>1609102370519</td><td class="numi">714</td></tr>
+<tr class="passedeven"><td rowspan="2">com.Nagarro.RestApi.Tests.ListTest</td><td><a href="#m4"><b>InvalidGetList</b>  </a></td><td class="numi">1</td><td>1609102374995</td><td class="numi">936</td></tr><tr class="passedeven"><td><a href="#m5"><b>ValidArchiveList</b>  </a></td><td class="numi">1</td><td>1609102376916</td><td class="numi">952</td></tr>
+<tr class="passedodd"><td rowspan="1">com.Nagarro.RestApi.Tests.SearchTest</td><td><a href="#m6"><b>ValidBoardSearch</b>  </a></td><td class="numi">1</td><td>1609102362431</td><td class="numi">1059</td></tr>
+<tr class="passedeven"><td rowspan="1">com.Nagarro.RestApi.Tests.BoardTest</td><td><a href="#m7"><b>ValidCreateBoard</b>  </a></td><td class="numi">1</td><td>1609102360700</td><td class="numi">1729</td></tr>
+<tr class="passedodd"><td rowspan="1">com.Nagarro.RestApi.Tests.CardTest</td><td><a href="#m8"><b>ValidCreateCard</b>  </a></td><td class="numi">1</td><td>1609102368608</td><td class="numi">964</td></tr>
+<tr class="passedeven"><td rowspan="1">com.Nagarro.RestApi.Tests.ListTest</td><td><a href="#m9"><b>ValidCreateList</b>  </a></td><td class="numi">1</td><td>1609102373067</td><td class="numi">961</td></tr>
+<tr class="passedodd"><td rowspan="1">com.Nagarro.RestApi.Tests.BoardTest</td><td><a href="#m10"><b>ValidDeleteBoard</b>  </a></td><td class="numi">1</td><td>1609102367653</td><td class="numi">954</td></tr>
+<tr class="passedeven"><td rowspan="1">com.Nagarro.RestApi.Tests.CardTest</td><td><a href="#m11"><b>ValidDeleteCard</b>  </a></td><td class="numi">1</td><td>1609102372139</td><td class="numi">925</td></tr>
+<tr class="passedodd"><td rowspan="1">com.Nagarro.RestApi.Tests.BoardTest</td><td><a href="#m12"><b>ValidGetBoard</b>  </a></td><td class="numi">1</td><td>1609102364259</td><td class="numi">823</td></tr>
+<tr class="passedeven"><td rowspan="1">com.Nagarro.RestApi.Tests.CardTest</td><td><a href="#m13"><b>ValidGetCard</b>  </a></td><td class="numi">1</td><td>1609102369574</td><td class="numi">944</td></tr>
+<tr class="passedodd"><td rowspan="1">com.Nagarro.RestApi.Tests.EmojiTest</td><td><a href="#m14"><b>ValidGetEmojis</b>  </a></td><td class="numi">1</td><td>1609102363492</td><td class="numi">765</td></tr>
+<tr class="passedeven"><td rowspan="1">com.Nagarro.RestApi.Tests.ListTest</td><td><a href="#m15"><b>ValidGetList</b>  </a></td><td class="numi">1</td><td>1609102374029</td><td class="numi">965</td></tr>
+<tr class="passedodd"><td rowspan="1">com.Nagarro.RestApi.Tests.BoardTest</td><td><a href="#m16"><b>ValidUpdateBoard</b>  </a></td><td class="numi">1</td><td>1609102366668</td><td class="numi">983</td></tr>
+<tr class="passedeven"><td rowspan="1">com.Nagarro.RestApi.Tests.CardTest</td><td><a href="#m17"><b>ValidUpdateCard</b>  </a></td><td class="numi">1</td><td>1609102371235</td><td class="numi">903</td></tr>
+<tr class="passedodd"><td rowspan="1">com.Nagarro.RestApi.Tests.ListTest</td><td><a href="#m18"><b>ValidUpdateList</b>  </a></td><td class="numi">1</td><td>1609102375932</td><td class="numi">982</td></tr>
+</table>
+<h1>Test</h1>
+<h2 id="m1">com.Nagarro.RestApi.Tests.EmojiTest:ValidGetEmojis</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.Nagarro.RestApi.Tests.CardTest:ValidGetCard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.Nagarro.RestApi.Tests.SearchTest:InvalidBoardSearch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.Nagarro.RestApi.Tests.BoardTest:InvalidGetBoard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.Nagarro.RestApi.Tests.ListTest:ValidGetList</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.Nagarro.RestApi.Tests.ListTest:ValidCreateList</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.Nagarro.RestApi.Tests.CardTest:ValidUpdateCard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.Nagarro.RestApi.Tests.ListTest:ValidUpdateList</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.Nagarro.RestApi.Tests.BoardTest:ValidCreateBoard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.Nagarro.RestApi.Tests.ListTest:ValidArchiveList</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.Nagarro.RestApi.Tests.BoardTest:ValidGetBoard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.Nagarro.RestApi.Tests.CardTest:InvalidGetCard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.Nagarro.RestApi.Tests.ListTest:InvalidGetList</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.Nagarro.RestApi.Tests.CardTest:ValidCreateCard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.Nagarro.RestApi.Tests.CardTest:ValidDeleteCard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.Nagarro.RestApi.Tests.BoardTest:ValidUpdateBoard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">com.Nagarro.RestApi.Tests.SearchTest:ValidBoardSearch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.Nagarro.RestApi.Tests.BoardTest:ValidDeleteBoard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

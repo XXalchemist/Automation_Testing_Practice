@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener
+			class-name="com.Nagarro.RestApi.Utils.ExtentReportClass" />
+	</listeners>
+
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.Nagarro.RestApi.Tests.BoardTest" />
+			<class name="com.Nagarro.RestApi.Tests.CardTest" />
+			<class name="com.Nagarro.RestApi.Tests.ListTest" />
+			<class name="com.Nagarro.RestApi.Tests.SearchTest" />
+			<class name="com.Nagarro.RestApi.Tests.EmojiTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
